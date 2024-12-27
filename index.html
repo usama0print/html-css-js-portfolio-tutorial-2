@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio </title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel ="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Oussama benatou</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+           </ul>
+        </div>
+     </nav>
+      <nav id="humberger-nav">
+
+        <div class="logo">Oussama benatou</div>
+        <div class="humberger-menu">
+        <div class="humberger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+         <div class="menu-links ">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">projects</a></li>
+            <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+       </div>
+      </nav>   
+      <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/croppedoussama1.png" alt="oussama benatou profile pictuure">
+
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Os benato</h1>
+            <p class="section__text__p2">Computer science</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"  onclick="window.open('./assets/cv.pdf')">Download CV</button>
+                <button class="btn btn-color-1"  onclick="location.href='./#Contact'">Contact info</button>
+           </div>
+           <div id="socials-container">
+            <img 
+            src="./assets/linkedin.png" 
+            alt="My LinkedIn profile"
+            class="icon" 
+            onclick="location.href='https://www.linkedin.com/in/osama-ato/'"/>
+
+            <img 
+            src="./assets/github.png" 
+            alt="Myn GitHub profile"
+            class="icon" 
+            onclick="location.href='https://github.com/usama0print'"/>
+
+           </div>
+        </div>
+
+      </section>
+      <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                src="./assets/about-pic.jpg" 
+                alt="profile picture"
+                class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                    <img 
+                        src="./assets/experience.png" 
+                         alt="Experience icon"
+                        class="icon"/>
+                     <h3>Experience</h3>
+                     <p>Graduate &<br>Freelancer(Development).<br>R2 Airbnb.<br>Hotel Receptionist<br>Backoffice & sales.<br>Compliance SIFX,FINXO.</p>
+                    </div>
+                    <div class="details-container">
+                        <img
+                        src="./assets/education.png"
+                        alt="Education  icon"
+                        class="icon" />
+                        <h3>Education</h3>
+                        <p>B.CS.engineering bechelors Degree</p>
+                    </div>
+                    </div>
+                    <div class="text-container">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                             Commodi magnam obcaecati corrupti deleniti alias error ipsum odit, soluta nisi sequi,
+                              maxime sint ex? Quas accusamus distinctio iste mollitia dicta velit at cumque molestias enim beatae,
+                               nobis dolorem? Autem, illo. Odit at sapiente quos consectetur omnis maiores est rerum debitis et.</p>
+                    </div>
+                </div>
+            </div>
+          
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+      </section>
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container"> 
+                    <h2 class="experience-sub-title">Experience</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>C#, C++, Java, Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>SQL, Django</h3>
+                                <p>Experienced</p>
+                            </div><script type="module" src=""></script>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>.NET, ASP</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container"> 
+                    <h2 class="experience-sub-title">Experience</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>GIt</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>SQL, Django, .NET, ASP</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Photoshop, PremierPro, DavinciResolve</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+        </section>
+        <section id="projects">
+        <p class="section__text__p1">Browse my recent</p>
+        <h1 class="title">projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" 
+                    alt="Project 1"
+                    class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/usama0print'">
+                        GitHub
+
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/usama0print'">
+                        live Demo
+
+                    </button>
+                </div>
+             
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.png" 
+                    alt="Project 2"
+                    class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/usama0print'">
+                        GitHub
+
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/usama0print'">
+                        live Demo
+
+                    </button>
+                </div>
+             
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-3.png" 
+                    alt="Project 3"
+                    class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/usama0print'">
+                        GitHub
+
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/usama0print'">
+                        live Demo
+
+                    </button>
+                </div>
+             
+            </div></div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in touch</p>
+        <h1 class="title">Contact me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png"
+                alt="email icon"
+                class="icon contact-icon email-icon"/>
+                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png"
+                alt="linkedin icon"
+                class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/osama-ato/">linkedin</a></p>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">experience</a></li>
+                        <li><a href="#projects">projects</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                   </ul>
+                
+                   
+            </div>
+        </nav>
+        
+        <p>Copyright &#169; 2024-2025 Oussama ebn atou. ALL Right Reserved</p>
+    </footer>
+ <script src="script.js"></script>
+</body>
+</html>
